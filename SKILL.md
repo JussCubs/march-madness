@@ -1,6 +1,6 @@
 ---
 name: march-madness
-description: NCAA college basketball analytics and March Madness prediction tools. Use when analyzing college basketball games, finding betting edges, building bracket predictions, or accessing NCAAB data. Includes tools for CBBpy (ESPN data), Barttorvik T-Rank, DRatings predictions, NCAA NET rankings, Massey composite ratings, Warren Nolan metrics, Kaggle tournament data, Haslametrics, and multi-source odds comparison. All data sources are FREE.
+description: NCAA college basketball analytics and March Madness prediction tools. Use when analyzing college basketball games, finding betting edges, building bracket predictions, or accessing NCAAB data. Includes tools for CBBpy (ESPN data), Barttorvik T-Rank, DRatings predictions, NCAA NET rankings, Massey composite ratings, Warren Nolan metrics, Kaggle tournament data, Haslametrics, StatMuse (natural language queries), Sports-Reference.com, SportsData.io API, FantasyPros projections, and multi-source odds comparison. All data sources are FREE.
 ---
 
 # March Madness NCAA Basketball Analytics
@@ -28,6 +28,12 @@ A comprehensive skill for NCAA college basketball data analysis and March Madnes
 - **warren_nolan.py**: NET rankings, RPI, strength of schedule
 - **massey_ratings.py**: Composite computer ratings from multiple systems
 - **haslametrics.py**: Computer predictions and unique analytics
+
+### New Sources (Derek's picks)
+- **statmuse.py**: Natural language basketball queries (ask anything in plain English)
+- **sportsreference.py**: Sports-Reference.com team/player stats, rankings, schedules
+- **sportsdata_io.py**: SportsData.io REST API (scores, odds, projections, stats)
+- **fantasypros.py**: FantasyPros projections, expert picks, NCAAB news
 
 ### Betting & Predictions
 - **dratings.py**: Computer predictions with odds comparison
